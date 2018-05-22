@@ -1,11 +1,11 @@
-package com.github.FlorianSteenbuck.OtherParams;
+package com.github.FlorianSteenbuck.other.params;
 
-import com.github.FlorianSteenbuck.OtherMap.entry.BaseEntry;
-import com.github.FlorianSteenbuck.OtherMap.entry.EntireEntry;
-import com.github.FlorianSteenbuck.OtherMap.entry.KeyEntry;
-import com.github.FlorianSteenbuck.OtherMap.entry.ProtoEntry;
-import com.github.FlorianSteenbuck.OtherParams.entry.UnitedEntry;
-import com.github.FlorianSteenbuck.OtherParams.model.BaseParams;
+import com.github.FlorianSteenbuck.other.map.entry.BaseEntry;
+import com.github.FlorianSteenbuck.other.map.entry.EntireEntry;
+import com.github.FlorianSteenbuck.other.map.entry.KeyEntry;
+import com.github.FlorianSteenbuck.other.map.entry.ProtoEntry;
+import com.github.FlorianSteenbuck.other.params.entry.UnitedEntry;
+import com.github.FlorianSteenbuck.other.params.model.BaseParams;
 
 import java.util.ArrayList;
 import java.util.List;
