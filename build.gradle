@@ -12,7 +12,7 @@ repositories {
 
 task stage(dependsOn: ['build'])
 dependencies {
-    implementation 'com.github.FlorianSteenbuck:OtherMap:f68c2ac9d7'
+    implementation 'com.github.kil1s:OtherMap:f68c2ac9d7'
     testImplementation 'junit:junit:4.12'
 }
 
