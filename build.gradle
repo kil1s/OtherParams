@@ -1,5 +1,7 @@
 plugins {
     id 'java-library'
+    id 'org.gradle.java'
+    id 'org.gradle.maven-publish'
 }
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -12,7 +14,7 @@ repositories {
 
 task stage(dependsOn: ['build'])
 dependencies {
-    implementation 'com.github.kil1s:OtherMap:efb570bb66'
+    implementation 'com.github.kil1s:OtherMap:master-SNAPSHOT'
     testImplementation 'junit:junit:4.12'
 }
 
@@ -20,5 +22,20 @@ jar {
     manifest {
         attributes('Implementation-Title': project.name,
                 'Implementation-Version': project.version)
+    }
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.github.kil1s.OtherParams'
+            artifactId = 'library'
+            version = '0.0.1'
+
+            from components.java
+        }
+    }
+    repositories {
+        mavenLocal()
     }
 }
