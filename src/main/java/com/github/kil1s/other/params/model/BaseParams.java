@@ -1,7 +1,7 @@
-package com.github.FlorianSteenbuck.other.params.model;
+package com.github.kil1s.other.params.model;
 
-import com.github.FlorianSteenbuck.other.map.entry.MapEntry;
-import com.github.FlorianSteenbuck.other.map.map.BaseMap;
+import com.github.kil1s.other.map.entry.MapEntry;
+import com.github.kil1s.other.map.map.BaseMap;
 
 import java.util.List;
 

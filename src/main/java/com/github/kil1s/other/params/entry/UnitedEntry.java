@@ -1,6 +1,6 @@
-package com.github.FlorianSteenbuck.other.params.entry;
+package com.github.kil1s.other.params.entry;
 
-import com.github.FlorianSteenbuck.other.map.entry.MapEntry;
+import com.github.kil1s.other.map.entry.MapEntry;
 
 public class UnitedEntry<E1 extends MapEntry, E2 extends MapEntry> implements MapEntry {
     protected E1 e1;
